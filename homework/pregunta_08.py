@@ -7,9 +7,9 @@ librerias de pandas para resolver las preguntas.
 
 import pandas as pd
 def pregunta_08():
-    df=pd.read_csv("files/input/tbl1.tsv", delimiter="\t")
-    suma=df["suma"] = df["c0"] + df["c2"]
-    return suma
+    df=pd.read_csv("files/input/tbl0.tsv", delimiter="\t")
+    df["suma"] = df["c0"] + df["c2"]
+    return df
 print(pregunta_08()) 
 """
     Agregue una columna llamada `suma` con la suma de `c0` y `c2` al
